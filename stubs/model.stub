@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * izi-starter
+* Developed: Tushar ahmed
+ */
+
+namespace {{ namespace }};
+
+use App\Models\Base\BaseModel;
+
+class {{ class }} extends BaseModel
+{
+    protected $guarded = ['id'];
+    
+    protected static $logName = "{{ class }}";
+}
